@@ -1,0 +1,6 @@
+
+To run executable jar from terminal (in java-security directory) with security manager and policy file:
+java -jar -Djava.security.manager -Djava.security.policy=src/main/resources/java-security-jar.policy target/java-security-1.0-SNAPSHOT.jar
+
+To run main class from terminal (in java-security/target/classes) with security manager and policy file:
+java -Djava.security.manager -Djava.security.policy=java-security.policy se.patrikbergman.java.security.GetProps

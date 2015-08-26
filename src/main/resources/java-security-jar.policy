@@ -1,0 +1,8 @@
+/* AUTOMATICALLY GENERATED ON Tue Aug 25 10:54:59 CEST 2015*/
+/* DO NOT EDIT */
+
+grant codeBase "file:/usr/local/src/java-security/target/java-security-1.0-SNAPSHOT.jar" {
+  permission java.util.PropertyPermission "user.home", "read";
+  permission java.util.PropertyPermission "java.home", "read";
+};
+
